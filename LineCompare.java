@@ -31,5 +31,15 @@ double line1= Math.sqrt(x2-x1)*(x2-x1)+(y2-y1)*(y2-y1);
 
         if (line1==line2)
             System.out.println("both lines are equal");
-    }
-}
+
+        else if (line1>line2)
+            System.out.println("line 1 is greater than line 2");
+
+            else
+                System.out.println("line 1 is lesser than line 2");
+
+            }
+
+        }
+
+
