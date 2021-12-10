@@ -14,8 +14,22 @@ public class LineCompare {
         int y2 =sc.nextInt();
 
 
-double length= Math.sqrt(x2-x1)*(x2-x1)+(y2-y1)*(y2-y1);
-        System.out.println(length);
+double line1= Math.sqrt(x2-x1)*(x2-x1)+(y2-y1)*(y2-y1);
+        System.out.println(line1);
 
+        System.out.println("enter x3 co-ordinate");
+        int x3 =sc.nextInt();
+        System.out.println("enter y3 co-ordinate");
+        int y3 =sc.nextInt();
+        System.out.println("enter x4 co-ordinate");
+        int x4 =sc.nextInt();
+        System.out.println("enter y4 co-ordinate");
+        int y4 =sc.nextInt();
+
+        double line2= Math.sqrt(x4-x3)*(x4-x3)+(y4-y3)*(y4-y3);
+        System.out.println(line2);
+
+        if (line1==line2)
+            System.out.println("both lines are equal");
     }
 }
